@@ -1,0 +1,25 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import './utils/variables';
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import './utils/utilities';
+
+.ff-2 {
+  font-family: 'Noto Serif TC', serif;
+}
+
+.ff-3 {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.btn-dark {
+  --bs-btn-hover-color: #FBFF22 !important;
+}
+
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+
+@import './pages/index.scss';
+
+@import "../../node_modules/bootstrap";
